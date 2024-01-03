@@ -3,16 +3,16 @@ import React from 'react'
 const Course = ({ currency, amount }: { currency: string, amount: number }) => {
     return (
         <>
-            <div className='w-fit'>
+            <div className='flex flex-wrap flex-col'>
                 <div
-                    className="lg:block rounded-lg bg-purple-100 shadow-lg text-black lg:absolute w-max top-72 right-32">
+                    className="flex flex-wrap lg:block rounded-lg bg-purple-100 shadow-lg text-black lg:absolute w-auto p-2 top-72 right-32">
                     <div
-                        className="border-b-2 border-neutral-100 px-4 py-3">
+                        className="border-b-2 border-neutral-100 px-4 py-3 flex flex-col flex-wrap">
                         <h5 className="mb-2 mt-4 text-lg font-semibold">Course fees</h5>
                         <h4 className="mb-4">
                             <span className="text-3xl font-bold">{currency ? "₹" : ""}{amount.toLocaleString()}</span>
                         </h4>
-                        <div className="flex flex-col items-start justify-center">
+                        <div className="flex flex-col items-start justify-center flex-wrap" >
                             <h3 className='font-bold my-2'>What&apos;s included:</h3>
                             <ul className="text-black">
                                 <li className="mb-2 flex justify-start items-start">
@@ -47,7 +47,7 @@ const Course = ({ currency, amount }: { currency: string, amount: number }) => {
                         </div>
                         <button
                             type="button"
-                            className="mb-4 inline-block text-1xl w-full p-32 rounded-full bg-primary-500 px-6 pb-2 pt-2.5 font-medium transition duration-150 ease-in-out bg-purple-950 text-white"
+                            className="mb-4 inline-block text-1xl p-32 rounded-full bg-primary-500 px-6 pb-2 pt-2.5 font-medium transition duration-150 ease-in-out bg-purple-950 text-white"
                             data-te-ripple-init
                             data-te-ripple-color="primary">
                             Register today

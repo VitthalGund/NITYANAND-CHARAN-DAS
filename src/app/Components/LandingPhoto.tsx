@@ -5,7 +5,7 @@ const LandingPhoto = ({ name, title }: { name: string, title: string }) => {
     return (
         <>
             <div className="relative w-full h-[20rem] mx-auto overflow-y-hidden object-cover">
-                <Image src={"/Nityanand Charan Das.png"}
+                <Image src={"/Nityanand Charan Das.avif"}
                     width={30} height={10} alt='titleImage' content='.png'
                     className='w-full h-[20rem] bg-black'
                 />
