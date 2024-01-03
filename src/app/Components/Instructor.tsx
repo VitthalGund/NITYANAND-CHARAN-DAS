@@ -9,7 +9,7 @@ const Instructor = ({ html_content }: { html_content: string }) => {
                 <h2 className='text-2xl sm:text-left text-center font-bold mx-10 m-5 p-3 lg:text-4xl'>About the Instructor</h2>
                 <div className='flex flex-col justify-center items-center lg:grid grid-flow-col grid-cols-3'>
                     <Image src="/icon.jpeg" alt=""
-                        width={100} height={100}
+                        width={1000} height={1000}
                         className='rounded-full lg:ml-[7rem] w-56 lg:self-end'
                     />
                     <p className='p-3 m-2 lg:m-0 lg:p-0'>{html_content}Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus illo repellendus officiis sunt pariatur nesciunt iusto similique? Accusantium a omnis aliquam quisquam, ab amet?</p>
