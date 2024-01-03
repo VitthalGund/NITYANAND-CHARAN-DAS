@@ -30,17 +30,11 @@ const Course = ({ currency, amount }: { currency: string, amount: number }) => {
                                     <p>2 livestream sessions</p>
                                 </li>
                                 <li className="mb-2 flex justify-start items-start">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-play-btn mx-1 my-1" viewBox="0 0 16 16">
-                                        <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
-                                    </svg>
+                                    <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/chat.png" alt="chat" />
                                     <p>Live Q&A sessions with Nityanand Das</p>
                                 </li>
                                 <li className="mb-10 flex justify-start items-start">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-play-btn mx-1 my-1" viewBox="0 0 16 16">
-                                        <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
-                                    </svg>
+                                    <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/chat.png" alt="chat" />
                                     <p>Active Whatsapp community</p>
                                 </li>
                             </ul>
