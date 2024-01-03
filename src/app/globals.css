@@ -5,3 +5,20 @@
 html {
   scroll-behavior: smooth;
 }
+
+@media (max-width: 450px) {
+  #name {
+    font-size: medium;
+  }
+  #title {
+    font-size: large;
+  }
+}
+@media (max-width: 240px) {
+  #name {
+    font-size: small;
+  }
+  #title {
+    font-size: medium;
+  }
+}
