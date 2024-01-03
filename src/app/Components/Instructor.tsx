@@ -1,10 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
-import Course from './Course';
 
-
-const Instructor = () => {
+const Instructor = ({ html_content }: { html_content: string }) => {
     return (
         <div>
             <div className='mb-6' id='INSTRUCTOR'>
@@ -14,7 +12,7 @@ const Instructor = () => {
                         width={100} height={100}
                         className='rounded-full lg:ml-[7rem] w-56 lg:self-end'
                     />
-                    <p className='p-3 m-2 lg:m-0 lg:p-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus illo repellendus officiis sunt pariatur nesciunt iusto similique? Accusantium a omnis aliquam quisquam, ab amet?</p>
+                    <p className='p-3 m-2 lg:m-0 lg:p-0'>{html_content}Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus illo repellendus officiis sunt pariatur nesciunt iusto similique? Accusantium a omnis aliquam quisquam, ab amet?</p>
                     <p className='p-3 m-2 lg:m-0 lg:p-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus illo repellendus officiis sunt pariatur nesciunt iusto similique? Accusantium a omnis aliquam quisquam, ab amet?</p>
                 </div>
                 <div className='flex flex-col justify-center items-center sm:flex-row p-5 flex-wrap'>

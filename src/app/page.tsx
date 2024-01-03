@@ -74,7 +74,7 @@ export default function Home() {
         </div>
         <About data={data} />
 
-        <Instructor />
+        <Instructor html_content={data.about_instructor.html_content[0]} />
         <Review />
 
       </div>
