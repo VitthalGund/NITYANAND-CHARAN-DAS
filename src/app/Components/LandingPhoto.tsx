@@ -6,7 +6,7 @@ const LandingPhoto = ({ name, title }: { name: string, title: string }) => {
         <>
             <div className="relative w-full h-[20rem] mx-auto overflow-y-hidden object-cover">
                 <Image src={"/Nityanand Charan Das.jpeg"}
-                    width={30} height={10} alt='titleImage' content='.png'
+                    width={100} height={100} alt='titleImage' content='.png'
                     className='w-full h-[20rem] bg-black'
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-gray-900 via-gray-900/40"></div>
